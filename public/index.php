@@ -7,7 +7,7 @@ $uri = urldecode(
 );
 
 if($uri === '/' or $uri === '' or $uri === '/index.php') {
-    $uri = '/login.php';
+    $uri = '/day_records.php';
 }
 
 require_once(CONTROLLER_PATH . "/{$uri}");
