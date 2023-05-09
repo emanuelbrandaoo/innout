@@ -15,7 +15,6 @@
         <thead>
             <th>Nome</th>
             <th>E-mail</th>
-            <th>Início</th>
             <th>Data de Admissão</th>
             <th>Data de Desligamento</th>
             <th>Ações</th>

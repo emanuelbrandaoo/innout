@@ -33,7 +33,7 @@ activateClock()
 
 function alertTime() {
     setTimeout("document.querySelector('.alert').style.display='none';"
-    , 3000)
+    , 5000)
 }
 
 alertTime()

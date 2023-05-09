@@ -10,6 +10,4 @@ foreach($users as $user) {
     }
 }
 
-loadTemplateView('users', [
-    'users' => $users
-]);
+loadTemplateView('users', ['users' => $users]);
