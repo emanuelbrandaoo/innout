@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -36,12 +36,6 @@
             </div>
             <div class="dropdown-content">
                 <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="settings.php">
-                            <i class="icofont-settings mr-2"></i>
-                            Ajustes
-                        </a>
-                    </li>
                     <li class="nav-item">
                         <a href="logout.php">
                             <i class="icofont-logout mr-2"></i>

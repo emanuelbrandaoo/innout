@@ -1,6 +1,11 @@
 <?php 
 $errors = [];
 
+if(isset($_SESSION['message'])) {
+    $message = $_SESSION['message'];
+    unset($_SESSION['message']);
+}
+
 if($exception) {
     $message = [
         'type' => 'error',
@@ -19,7 +24,6 @@ if ($message['type'] === 'error') {
 } else {
     $alertType = 'success';
 }
-
 ?>
 
 <?php if($message): ?>
